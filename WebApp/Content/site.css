@@ -1,0 +1,48 @@
+﻿
+/*...JQuery Reorder page in /Area/Admin/view/index.html...Sortable(items)...*/
+table.sorting tr:not(.home) {
+    cursor: pointer;
+}
+
+/*...JQuery Reorder page in /Area/Admin/view/pages/index.html...Sortable(placeholder)...*/
+.ui-state-highlight{
+    border: 1px dashed #ccc;
+}
+div.new-cat{
+    margin-top:30px;
+    position:relative;
+}
+
+/*...for padding /Area/ Admin/view/Shop/categories.html table....*/
+table.sorting.categories td {
+    padding: 20px !important;
+}
+
+.ajaxdivtd {
+    position: absolute;
+}
+
+span.loader{
+    display:none;
+}
+
+span.ajaxmsg {
+    background: green;
+    color: white;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.ajaxcart {
+    position: relative;
+    top: 5px;
+}
+
+.ib {
+    display: inline-block !important;
+}
+.ajaxbg{
+    display:none;
+}
